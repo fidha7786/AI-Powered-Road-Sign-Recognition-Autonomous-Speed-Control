@@ -17,3 +17,64 @@ Computer Vision: OpenCV
 Hardware: Raspberry Pi, Pi Camera, DC Motor, L293D Motor Driver
 
 Deployment/UI: Streamlit
+
+### Example Images
+- **Stop Sign**:  
+  ![Stop Sign](data/Test/00111.png)
+
+- **Yield Sign**:  
+  ![Yield Sign](data/Test/00120.png)
+
+- **Speed Limit Sign**:  
+  ![Speed Limit Sign](data/Test/00122.png)
+
+## Datasets
+The dataset used for this project is the **German Traffic Sign Recognition Benchmark (GTSRB)**. It contains over 50,000 images categorized into 43 classes of traffic signs.
+
+### Dataset Structure
+```
+data/ 
+    ├── Train/ # Contains train images organized by class
+    ├── Test/ # Contains test images organized by class
+    
+```
+### CSV Files
+- **`Train.csv`**: Contains paths and labels for the training set.
+- **`Test.csv`**: Contains paths and labels for the test set.
+
+## Project Structure
+
+```
+    traffic-sign-recognition/
+    │
+    ├── data/
+    │   ├── Meta/
+    │   ├── Test/
+    │   ├── Train/
+    │   └── ...
+    ├── scripts/
+    │   ├── data_preprocessing.py
+    │   ├── eda.py
+    │   ├── model_training.py
+    │   ├── evaluation.py
+    │   ├── inference.py
+    │   └── streamlit_app.py
+    ├── main.py
+    ├── requirements.txt
+    └── README.md
+```
+
+## Setup and Installation
+1. **Clone the Repository**:
+   ```
+        source env/bin/activate  # On Windows use `env\Scripts\activate`
+        pip install -r requirements.txt
+
+# Usage
+
+### Data Preprocessing
+
+To preprocess the dataset:
+```
+
+```
