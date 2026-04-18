@@ -19,14 +19,14 @@ Hardware: Raspberry Pi, Pi Camera, DC Motor, L293D Motor Driver
 Deployment/UI: Streamlit
 
 ### Example Images
-- **Stop Sign**:  
-  ![Stop Sign](data/Test/00111.png)
+- **Stop Sign**:
+- <img width="49" height="46" alt="00014_00000_00002" src="https://github.com/user-attachments/assets/360a6820-d774-4d02-8d0d-bfa50d0cbe7c" />
 
-- **Yield Sign**:  
-  ![Yield Sign](data/Test/00120.png)
+- **Yield Sign**:
+- <img width="29" height="29" alt="00013_00000_00005" src="https://github.com/user-attachments/assets/abe96c05-3b4f-4203-95f3-ce039e5e6676" />
 
-- **Speed Limit Sign**:  
-  ![Speed Limit Sign](data/Test/00122.png)
+- **Speed Limit Sign**:
+- <img width="57" height="59" alt="00001_00000_00006" src="https://github.com/user-attachments/assets/56b58ec4-c4b3-4074-8950-629571ece307" />
 
 ## Datasets
 The dataset used for this project is the **German Traffic Sign Recognition Benchmark (GTSRB)**. It contains over 50,000 images categorized into 43 classes of traffic signs.
