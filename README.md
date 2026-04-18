@@ -76,5 +76,60 @@ data/
 
 To preprocess the dataset:
 ```
+    python main.py --data --data_dir data
 
 ```
+### Exploratory Data Analysis (EDA)
+
+To generate visualizations and understand the dataset:
+```
+    python main.py --eda --data_dir data --output_dir outputs
+
+```
+### Model Training
+
+To train the CNN model on the preprocessed data:
+```
+     python main.py --training --data_dir data --model_dir models --epochs 20 --      batch_size 64 --learning_rate 0.001
+```
+### Model Evaluation
+
+To evaluate the trained model:
+```
+   python main.py --evaluation --data_dir data --model_dir models --output_dir      outputs
+```
+### Inference
+
+To make predictions on new images:
+```
+     python main.py --inference --model_dir models --image_path path/to/image.jpg
+
+```
+### IStreamlit Application
+
+To launch the Streamlit application for interactive traffic sign recognition:
+
+```
+    streamlit run scripts/streamlit_app.py -- --model_path models/best_model.h5
+```
+### live Detection Using camera
+can customize thresh0ld and camera:
+```
+python main.py --live --camer 1 --threshold 0.8
+```
+for keeping delay while detecting :
+```
+python main.py --live --cooldown 2
+```
+### Notes
+
+Image Paths: Ensure to replace data/Train/00000.png, etc., with actual paths to your images.
+
+
+Repository URL: Replace <repository-url> with the actual URL of your GitHub repository.
+
+
+License: Ensure you have a LICENSE file if you include a license section.
+
+
+This README.md provides a comprehensive overview of your project, making it easy for users to understand its purpose and how to use it effectively. Let me know if you need further adjustments or additions!
